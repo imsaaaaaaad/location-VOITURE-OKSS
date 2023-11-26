@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    }
+    body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(images/img.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    }
+    .wrapper {
+    width: 420px;
+    height: 400px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 11px;
+    padding: 30px 40px;
+    transition: 0.5s;
+    }
+    .wrapper:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+    }
+    h1 {
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    }
+    .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    }
+    .input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 40px;
+    font-size: 17px;
+    color: white;
+    padding: 20px 45px 20px 20px;
+    transition: 0.7s;
+    }
+    .input-box input:focus {
+    border: 2.5px solid rgba(255, 255, 255, 0.651);
+    }
+    .input-box input::placeholder {
+    color: rgb(221, 221, 221);
+    }
+    .input-box input:focus::placeholder {
+    visibility: hidden;
+    }
+    .input-box i {
+    position: absolute;
+    right: 20px;
+    top: 24px;
+    transform: translateY(-50%);
+    font-size: 20px;
+    }
+    .wrapper .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+    }
+    .remember-forgot label input {
+    accent-color: white;
+    margin-right: 3px;
+    }
+    .remember-forgot a {
+    color: #fff;
+    text-decoration: none;
+    }
+    .remember-forgot a:hover {
+    text-decoration: underline;
+    }
+    .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+    color: #333;
+    transition: 0.7s;
+    }
+    .btn:hover {
+    background: #ececec;
+    }
+    .register-link {
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 15px;
+    }
+    .register-link p a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 580;
+    }
+    .register-link p a:hover {
+    text-decoration: underline;
+    }
+    .wrapper2 {
+    width: 420px;
+    height: 450px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    border-radius: 11px;
+    padding: 30px 40px;
+    transition: 0.5s;
+    }
+    .wrapper2:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);}

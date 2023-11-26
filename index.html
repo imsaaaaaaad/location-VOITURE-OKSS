@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Agence de Location de Voitures</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="icon" href="OKSS.png" type="image/x-icon" />
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/fontawesome/6.4.2/css/all.min.css" />
+</head>
+<body>
+<section class="header">
+<nav>
+<a href="index.html" class="okss">OKSS</a>
+<div class="nav-links" id="navLinks">
+<i class="fa fa-times" onclick="hidemenu()"></i>
+<ul>
+<li><a href="#">Acceuil</a></li>
+<li><a href="#Nos-voitures">Nos-voitures</a></li>
+<li><a href="#">services</a></li>
+<li><a href="contacts.html">Contactez-nous</a></li>
+<li><a href="login.html" target="_blank">Connexion</a></li>
+</ul>
+</div>
+<i class="fa fa-bars" onclick="showmenu()"></i>
+</nav>
+<div class="text-box">
+<h1>Economisez plus<br />Voyagez plus</h1>
+<p>decouvrir les meilleur voitures avec OKSS!</p>
+<a href="#" class="reserve-btn">Gérer ma reservation</a>
+</div>
+<section class="container">
+<form class="form" action="#">
+<div class="column1">
+<div class="input-box">
+<label>Agence de depart</label>
+<input type="text" placeholder="Entrer l'agence de depart" />
+</div>
+<div class="input-box">
+<label>Agence d'arrivée</label>
+<input type="text" placeholder="Entrer l'agence d'arrivée" />
+</div>
+</div>
+<div class="column2">
+<div class="input-box">
+<label>Date de depart</label>
+<label id="arv">Date d'arrivée</label>
+<div class="datetime">
+<input type="date" /><i
+class="fa fa-arrow-right"
+aria-hidden="true"></i
+><input type="date" />
+</div>
+</div>
+</div>
+<div class="check">
+<input type="checkbox" checked /><label
+>Conducteur âgé de plus de 25 ans
+</label>
+</div>
+<input type="submit" value="Rechercher" />
+</form>
+</section>
+</section>
+<!--Java Script for toggle menu-->
+<script>
+var navLinks = document.getElementById("navLinks");
+function showmenu() {
+navLinks.style.right = "0";
+}
+function hidemenu() {
+navLinks.style.right = "-200px";
+}
+</script>
+         
+
+    <section class="cards" id="Nos-voitures">
+        <h5 class="title1"><a href="#">OKSS></a>Nos-Voitures</h5>
+        <h2 class="title2">Découvrez notre gamme de voitures et d'utilitaires</h2> 
+        <div class="content">
+            <div class="card">
+                <div class="img"> voiture 1</div>
+                <div class="info">
+                    <h3>Dacia</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img"> voiture 1</div>
+                <div class="info">
+                    <h3>Skuda</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img"> voiture 1</div>
+                <div class="info">
+                    <h3>Skuda</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img"> voiture 1</div>
+                <div class="info">
+                    <h3>Skuda</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img"> voiture 1</div>
+                <div class="info">
+                    <h3>Skuda</h3>
+                </div>
+            </div>
+            <div class="card">
+                <div class="img"> voiture 1</div>
+                <div class="info">
+                    <h3>Skuda</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+  
+ 
+</body>
+</html>
